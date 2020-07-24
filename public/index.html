@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTGraphics</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+    <link href="index.css" tupe="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>MTGraphics</h1>
+        <ul class="sets">
+            <li class="INVESTIDA">
+                <div class='head ONS'>
+                    <h1>INVESTIDA</h1>
+                    <img src='https://media.magic.wizards.com/images/featured/050_ONS_SymbolProduct.png' />
+                </div>
+                <div class="graphs-ONS">                                    
+                    <canvas id="ONSGraph" width="300" height="300"></canvas>
+                    <canvas id="ONSGraphCreature" width="300" height="300"></canvas>
+                </div>
+            </li>
+            <li class="LEGIAO">
+                <div class='head LGN'>
+                    <h1>LEGIAO</h1>
+                    <img src='https://media.magic.wizards.com/images/featured/052_LGN_SymbolProduct.png' /> 
+                </div>
+                <div class="set-LGN">                                       
+                    <canvas id="LGNGraph" width="300" height="300"></canvas>
+                    <canvas id="LGNGraphCreature" width="300" height="300"></canvas>
+                </div>
+            </li>       
+            <li class="FRAGELO">
+                <div class='head SCG'>
+                    <h1>FRAGELO</h1>
+                    <img src='https://media.magic.wizards.com/images/featured/053_SCG_Symbol_Product.png' />   
+                </div>                                                  
+                    <canvas id="SCGGraph" width="300" height="300"></canvas>
+                    <canvas id="SCGGraphCreature" width="300" height="300"></canvas>
+                </div>
+            </li>                             
+        </ul>        
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
